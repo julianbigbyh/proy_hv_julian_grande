@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>Educacion</title>
+  </head>
+  <body>
+    <svg width="150px" height="150px">
+      <image xlink:href="imagenes/Logo.svg" width="150px" height="150px">No se puede ver imagen</image>
+    </svg>
+    <h1>Hoja de Vida</h1>
+    <section id="datospersonales">
+      <img src="imagenes/foto.jpg" alt="" width="100px" title="Julian Andres Grande">
+      <h2>Datos Personales</h2>
+      <table>
+        <tr>
+          <td><h4>Nombres:</h4></td>
+          <td>JULIAN ANDRES</td>
+        </tr>
+        <tr>
+          <td><h4>Apellidos:</h4></td>
+          <td>GRANDE BURBANO</td>
+        </tr>
+        <tr>
+          <td><h4>Fecha de nacimiento:</h4> </td>
+          <td>10/06/1990</td>
+        </tr>
+        <tr>
+          <td><h4>Lugar de nacimiento:</h4> </td>
+          <td>Leticia</td>
+        </tr>
+      </table>
+      <section id="enlaces">
+        <a href="index.html" >Inicio</a> -
+        <a href="experiencia.html">Experiencia</a>
+        <br>
+        <br>
+      </section>
+      <section id="educacion">
+        <table>
+          <tr>
+            <th>Año</th>
+            <th>Instituto</th>
+            <th>Lugar</th>
+            <th>Culmino?</th>
+          </tr>
+          <tr>
+            <td>2000</td>
+            <td>Rin Rin</td>
+            <td>Amazonas</td>
+            <td>Si</td>
+          </tr>
+          <tr>
+            <td>2006</td>
+            <td>Renacuajo</td>
+            <td>Tumaco</td>
+            <td>Si</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </table>
+        <form autocomplete="om" name="educaion">
+          <fieldset>
+            <legend>Educiión</legend>
+            <label for="ano">Año: </label>
+            <input type="number" name="ano" min="1980" max="2030" required> <br>
+            <label for="institucion">Institución: </label>
+            <input type="text" name="institucion" maxlength="80" required> <br>
+            <label for="lugar">Lugar: </label><br>
+            <textarea name="lugar" rows="3" cols="50" required></textarea><br>
+            <label>Culminó?: </label>
+            <label for="csi">Si</label>
+            <input type="radio" name="culmino" id="csi">
+            <label for="cno">No</label>
+            <input type="radio" name="culmino" id="cno"><br>
+            <br>
+            <input type="submit" name="enviar" value="Enviar..."><br>
+            <br>
+          </fieldset>
+        </form>
+      </section>
+      <footer>- Derechos de Autor -<br>
+        <br>
+        Correo: <a href="mailto:julianbigbyh@yahoo.com?subject=feedback">julianbigbyh@yahoo.com</a><br>
+        Telefono: 311-3113111 <br>
+        Direccion: Calle 9a 54-16 Bogota DC - Colombia <br>
+      </footer>
+  </body>
+</html>
